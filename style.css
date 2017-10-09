@@ -1,26 +1,55 @@
-#outerDiv {
+.outer-div {
     height: 250px;
     width: 380px;
     background-color: lightgray;
     padding: 10px;
 }
-
-#innerDiv {
-    height: -webkit-fill-available;
+.inner-div {
     background-color: red;
     border: 2px solid black;
     border-radius: 15px;
+    height: 100%;
+    box-sizing: border-box;
 }
-
-#header{
+.header{
     height:25%;
+    position:relative;
 }
-
-#content{
-    height:50%;
-    background-color:darkred;
+.header .title {
+    margin: 0px;
+    padding: 0px 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
-
-#footer{
-    height:25%;
+.content {
+    height: 50%;
+    background-color: #ce0808;
+    position: relative;
+}
+.content .address {
+    margin: 0px;
+    display: inline-block;
+    color: white;
+    font-size: 0.7em;
+    padding: 0px 10px;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+}
+.content .image {
+    height: 100%;
+    float: right;
+}
+.footer {
+    height: 25%;
+    position: relative;
+}
+.footer .skills {
+    margin: 0px;
+    padding: 0px 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.1em;
 }
