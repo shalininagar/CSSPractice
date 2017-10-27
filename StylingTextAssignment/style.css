@@ -40,6 +40,57 @@ header, section, aside, nav, footer {
 header, footer {
   border-top: 5px solid #a66;
   border-bottom: 5px solid #a66;
+  text-align: center;
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+body{
+	font-family: 'Slabo 27px', serif;
+}
+
+h1{
+	font-size: 2.2em;
+}
+
+a:link {
+	color: #a66;
+	text-decoration:none;
+	border-bottom: 1px solid #a66;
+}
+a:visited{
+	color: #8a5252;
+}
+a:focus{
+	color: #ef4c40;
+	border-bottom:none;
+	outline:none;
+}
+a:hover{
+	color: #ef4c40;
+	border-bottom:none;
+}
+
+a[href*='http'] {
+	background-image: url('externalLinkIcon.png');
+	background-repeat:no-repeat;
+	padding-right: 17px;
+	background-size: 12px 12px;
+	background-position: right;
+}
+
+nav ul{
+	list-style-type: none;
+	padding:0;
+}
+
+nav ul li{
+	border: 1px solid #a66;
+	padding: 15px;
+    text-align: center;
+	margin: 12px;
+}
+
+nav ul li a:link{
+	border-bottom: none;
+}
