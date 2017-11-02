@@ -1,0 +1,19 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+
+.cool-box{
+	box-sizing: border-box;
+	background-image: linear-gradient(to right bottom, red, #c30303);
+	width: 200px;
+    text-align: center;
+    line-height: 3;
+	border-radius: 10px;
+	border: 1px solid #c30303;
+	color: red;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 2px 2px 2px black, inset 2px 3px 5px rgba(255,255,255,0.8), inset -2px -3px 5px rgba(0,0,0,0.3);
+}
